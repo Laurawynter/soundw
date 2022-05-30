@@ -26,7 +26,7 @@ function App() {
   <styled-components/>
   <logo/>
   <images/>
-  <NavNav/>
+ 
   
  </div>
   )

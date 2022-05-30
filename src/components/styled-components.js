@@ -18,14 +18,24 @@ export const Container= styled.div`
   `
 ;
 export const Circle = styled.div`
-width:70%;
-height:70%;
-background-color :#bc3a801a;
+width:200px; ;
+height:200px; 
+border-radius: 50%
+background-color :":rgba(188,58,128,0.1);
+position:relative;
+display-flex:left;
+
 `;
+
+`&:hover{
+  background-color:transparent;
+  }
+  `;
 export const Circle2 = styled.div`
 width:20%;
 height:20%;
 background-color :#3457b21a;
+position:
 `;
 `&:hover{
 background-color:transparent;
@@ -34,7 +44,7 @@ background-color:transparent;
 export const Circle3 = styled.div`
 width:20%;
 height:20%;
-background-color :#3457b21a;
+background-color :#rgba(52,87,178,0.1) ;
 `;
 `&:hover{
 background-color:transparent;

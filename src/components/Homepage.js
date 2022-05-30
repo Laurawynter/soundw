@@ -1,11 +1,10 @@
-import landingPagegirl from '../images/landing-page-girl.png';
+
 
 
 function Homepage (){
 
 return (
 <section className = "Home-C">
-<img src={landingPagegirl} className="landing-page-girl" alt="landing-page-girl" />
 <img src="logo.png"/>
 <a href='#Discover' className ="img logo.png">Discover</a>
 <a href='#Join' className ="imag logo.png">Join</a>
