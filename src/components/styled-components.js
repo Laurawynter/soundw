@@ -1,25 +1,19 @@
-import React from 'react';
+
 import styled from 'styled-components'
 
 
-export default function styledComponents (){
+/*export default function styledComponents (){
 
     return
     <>
-    <h2>Styled-Components</h2>
+    Styled-Components
     </>
-}
-export const Container= styled.div`
- {
-  background-color:#2F303A;
-  width:100 %;
-  height:100%;
-  margin:0  
-  `
-;
-export const Circle = styled.div`
-width:200px; ;
-height:200px; 
+}*/
+
+
+export const Circle1 = styled.div`
+width:20%; ;
+height:20%; 
 border-radius: 50%
 background-color :":rgba(188,58,128,0.1);
 position:relative;
@@ -27,28 +21,19 @@ display-flex:left;
 
 `;
 
-`&:hover{
-  background-color:transparent;
-  }
-  `;
 export const Circle2 = styled.div`
 width:20%;
 height:20%;
 background-color :#3457b21a;
-position:
-`;
-`&:hover{
-background-color:transparent;
-}
+position:absolute;
+
 `;
 export const Circle3 = styled.div`
 width:20%;
 height:20%;
 background-color :#rgba(52,87,178,0.1) ;
-`;
-`&:hover{
-background-color:transparent;
-}`
+position: absolute;
+`
 ;
 
 export const JoinSec = styled.div`
@@ -144,4 +129,25 @@ background:#2796ff ;
 background-color: ${({ primary }) =>
 (primary ? '#2796FF' : '#2796FF')};
 }
+
+export const App { 
+fontFamily: poppins, sans-serif; 
+background-color: #2796ff; 
+color: white; 
+padding: 40%;
+size:1.2rem;
+ }
+ `
+ ;
+ export const Joinbutton = styled.button`
+  background-color:blue;
+  border:2px solid blue;
+  color: black;
+  padding:;
+  const Button = () => {
+    return <PrettyButton>¡Botón con estilo!</PrettyButton>;
+  };
+  position :relative:
+  align center ;
+
 `;

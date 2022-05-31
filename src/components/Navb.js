@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
-background: transparent;
+background:#2F303A ;
 height: 80px;
 display: flex;
 justify-content: center;
-align-items: center;
+align-items: right;
 font-size: 1rem;
 /* Fix your navbar by using below two lines of code */
 position: sticky;
@@ -24,17 +24,21 @@ z-index: 1;
 width: 100%;
 padding: 0 24px;
 max-width: 1100px;
+position:sticky;
+background-color:
+flex-wrap:wrap;
 `;
 export const NavLogo = styled.a`
-color: green;
+color: #202027;
 justify-self: flex-start;
 cursor: pointer;
 font-size: 1.5rem;
 display: flex;
-align-items: center;
+align-items: left;
 margin-left: 24px;
-font-weight: bold;
+font-family:poppins ;
 text-decoration: none;
+
 `;
 
 export const NavMenu = styled.div`
@@ -50,7 +54,7 @@ display: none;
 export const NavItem = styled.li`
 height: 80px;
 `;
-export const NavLinks = styled.a`
+export const NavLinks = styled.div`
 color: #808080; 
 display: flex; 
 align-items: center; 

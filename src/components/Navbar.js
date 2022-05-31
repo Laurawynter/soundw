@@ -1,6 +1,6 @@
 import React, { } from 'react';
 import logo from "../images/logo.png";
-import {NavContainer,NavLogo,NavItem,NavLinks,NavMenu,Nav}from './Navb';
+import {NavContainer,NavItem,NavLinks,NavMenu,Nav}from './Navb';
 import { useState } from 'react';
 import { Fragment } from 'react';
 
@@ -19,8 +19,8 @@ const Navbar = () => {
       <Fragment>
         <Nav className={colorChange ? 'navbar colorChange' : 'navbar'}>
            <NavContainer>
-            <img src='logo.svg'></img>
-              <NavLogo href="#">Discover</NavLogo>
+           <img src={logo} className="logo" alt="logo.png" />
+              <NavLinks href="#">Discover</NavLinks>
               <NavMenu>
                 <NavItem>
                   <NavLinks href="#">Join</NavLinks>
