@@ -27,6 +27,7 @@ max-width: 1100px;
 position:sticky;
 background-color:
 flex-wrap:wrap;
+
 `;
 export const NavLogo = styled.a`
 color: #202027;
@@ -36,14 +37,14 @@ font-size: 1.5rem;
 display: flex;
 align-items: left;
 margin-left: 24px;
-font-family:poppins ;
+font-family:poppins;
 text-decoration: none;
 
 `;
 
 export const NavMenu = styled.div`
 display: flex;
-align-items: center;
+align-items:center;
 list-style: none;
 text-align: center;
 margin-right: -22px;
@@ -53,6 +54,19 @@ display: none;
 `;
 export const NavItem = styled.li`
 height: 80px;
+display: flex;
+display:inline-block;
+font-size: 0.7em;
+list-style-type: none;
+text-decoration: none;
+color: #5e5e5e;
+opacity: 0.5;
+margin-right: 2em;
+  }
+  a:hover {
+  opacity: 1;
+  }
+
 `;
 export const NavLinks = styled.div`
 color: #808080; 
