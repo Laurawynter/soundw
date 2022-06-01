@@ -20,12 +20,12 @@ const Navbar = () => {
         <Nav className={colorChange ? 'navbar colorChange' : 'navbar'}>
            <NavContainer>
            <img src={logo} className="logo" alt="logo.png" />
-              <NavLinks href="#">Discover</NavLinks>
-              <NavMenu>
+            <h1>Soundwave</h1>
+            <NavLinks href="#">Discover</NavLinks>
+               <NavMenu>
                 <NavItem>
-                  <NavLinks href="#">Join</NavLinks>
+                <NavLinks href="#">Join</NavLinks>
                 </NavItem>
-                <h1>Soundwave</h1>
               </NavMenu>
            </NavContainer>
         </Nav>

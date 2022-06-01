@@ -1,5 +1,5 @@
 import React from 'react';
-import { InfoRow, InfoColumn, Heading, Form, FormWrap, FormContent,
+import { InfoRow, InfoColumn, Form, FormWrap, FormContent,
 FormLabel, FormInput, FormButton, JoinSec } from './styled-components.js'
 
 
@@ -8,9 +8,6 @@ return (
 <>
 <JoinSec>
 <InfoRow formStart={formStart}>
-<InfoColumn>
-<Heading>Join The Fun</Heading>
-</InfoColumn>
 <InfoColumn>
 <FormWrap>
 <FormContent>

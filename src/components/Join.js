@@ -6,7 +6,7 @@ function Join (){
     return (
         <div>
           
-            <h2>Join the fun</h2>
+            <h1>Join the fun</h1>
             <JoinSection/>
              <Footer/>
                </div>

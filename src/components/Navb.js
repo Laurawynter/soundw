@@ -5,7 +5,8 @@ background:#2F303A ;
 height: 80px;
 display: flex;
 justify-content: center;
-align-items: right;
+flex-wrap:wrap;
+align-items: center;
 font-size: 1rem;
 /* Fix your navbar by using below two lines of code */
 position: sticky;
@@ -19,6 +20,7 @@ transition: 0.8s all ease
 export const NavContainer = styled.div`
 display: flex;
 justify-content: space-between;
+align-content :center;
 height: 80px;
 z-index: 1;
 width: 100%;
@@ -27,6 +29,14 @@ max-width: 1100px;
 position:sticky;
 background-color:
 flex-wrap:wrap;
+
+h1{
+  color: white;
+  padding:1em;
+  display:flex;
+ flex-wrap:wrap;
+ margin-left:0.5 rem;
+}
 
 `;
 export const NavLogo = styled.a`
@@ -54,13 +64,10 @@ display: none;
 `;
 export const NavItem = styled.li`
 height: 80px;
-display: flex;
 display:inline-block;
-font-size: 0.7em;
 list-style-type: none;
 text-decoration: none;
-color: #5e5e5e;
-opacity: 0.5;
+color: #5e5e5e
 margin-right: 2em;
   }
   a:hover {
@@ -70,10 +77,12 @@ margin-right: 2em;
 `;
 export const NavLinks = styled.div`
 color: #808080; 
-display: flex; 
-align-items: center; 
+display:flex;
+display:inline-block;
+margin: 1em;
+align-items: end; 
 text-decoration: none; 
-padding: 0 1rem; 
+padding: 0 2rem; 
 height: 100%; 
 cursor: pointer; 
 &.active { 

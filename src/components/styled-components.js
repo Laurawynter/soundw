@@ -1,6 +1,8 @@
 
 import styled from 'styled-components'
-
+import Main from './Main.js';
+import Footer from'./Footer.js';
+import Discover from './Discover.js';
 
 /*export default function styledComponents (){
 
@@ -62,11 +64,13 @@ justify-content: center;
 }
 `;
 export const Heading = styled.h1`
+display:flex;
+align-content :row;
 margin-bottom: 5px;
 font-size: 60px;
 line-height: 1.1;
 font-weight: 600;
-color: ${({ lightText }) => (lightText ? '#F7F8FA' : '#F7F8FA')};
+color: ${({ lightText }) => (lightText ? '#F7F8FA' : '#202027')};
 `;
 export const FormWrap = styled.div`
 height: 100%;
@@ -131,23 +135,87 @@ background-color: ${({ primary }) =>
 }
 
 export const App { 
-fontFamily: poppins, sans-serif; 
-background-color: #2796ff; 
-color: white; 
-padding: 40%;
-size:1.2rem;
+fontFamily: Poppins, sans-serif; 
+
  }
  `
  ;
  export const Joinbutton = styled.button`
   background-color:blue;
   border:2px solid blue;
-  color: black;
-  padding:;
-  const Button = () => {
-    return <PrettyButton>¡Botón con estilo!</PrettyButton>;
-  };
-  position :relative:
-  align center ;
+  color: blue;
+  padding: 10px;
+ 
 
 `;
+
+export const MainC =styled.div`
+display:flex;
+justify-content: center;
+align-items:center;
+width:30%;
+height:30%;
+margin-right: 15%;
+padding-right:15%;
+
+imgGirl{
+  float:right;
+}
+
+  h1{
+    color: white;
+    padding:1em;
+    display:flex;
+   flex-wrap:wrap;
+   margin-left:0.5 rem;
+  }
+p{
+  color: white;
+  padding:1em;
+  display:flex;
+ flex-wrap:wrap;
+ margin-left:0.5 rem; 
+}
+`;
+export const FooterC = styled.div`
+display:inline-block;
+width:20%;
+height:20%;
+margin-right: 15%;
+padding-right:15%;
+
+`;
+
+export const DiscoverC=styled.div;`
+display: flex;
+justify-content: space-between;
+align-content :center;
+height: 80px;
+z-index: 1;
+width: 100%;
+padding: 0 24px;
+max-width: 1100px;
+position:sticky;
+background-color:
+flex-wrap:wrap;
+
+h1{
+    color:white;
+    padding:1em;
+    display:flex;
+   flex-wrap:wrap;
+   margin-left:0.5 rem;
+  }
+p{
+  color: white;
+  padding:1em;
+  display:flex;
+ flex-wrap:wrap;
+ margin-left:0.5 rem; 
+}
+`;
+
+
+
+
+
