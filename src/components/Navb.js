@@ -30,12 +30,16 @@ position:sticky;
 background-color:
 flex-wrap:wrap;
 
-h1{
+h2{
+
   color: white;
+  display :flex;
   padding:1em;
-  display:flex;
- flex-wrap:wrap;
- margin-left:0.5 rem;
+  witdth:50%;
+  max-widht:600px:
+  height:300px;
+  vertical-align: middle;
+
 }
 
 `;

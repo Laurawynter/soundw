@@ -4,6 +4,9 @@ import Main from './Main.js';
 import Footer from'./Footer.js';
 import Discover from './Discover.js';
 
+
+
+
 /*export default function styledComponents (){
 
     return
@@ -13,21 +16,21 @@ import Discover from './Discover.js';
 }*/
 
 
-export const Circle1 = styled.div`
-width:20%; ;
-height:20%; 
-border-radius: 50%
-background-color :":rgba(188,58,128,0.1);
-position:relative;
-display-flex:left;
+export const Circle = styled.div`
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: #5cb85c;
+
 
 `;
 
-export const Circle2 = styled.div`
-width:20%;
-height:20%;
-background-color :#3457b21a;
-position:absolute;
+export const CuartoC = styled.div`
+width: 50px; 
+height: 50px; 
+border: 2px solid #555; 
+background: #5cb85c;
+border-radius: 0 100% 0 0;
 
 `;
 export const Circle3 = styled.div`
@@ -134,88 +137,146 @@ background-color: ${({ primary }) =>
 (primary ? '#2796FF' : '#2796FF')};
 }
 
-export const App { 
-fontFamily: Poppins, sans-serif; 
-
- }
- `
- ;
+ `;
  export const Joinbutton = styled.button`
-  background-color:blue;
-  border:2px solid blue;
-  color: blue;
+  background:blue;
+  position:absolute;
+  display :flex ;
+  justify-content:center;
+  cursor: pointer
+  font-size:1em
+  border:2px solid black;
   padding: 10px;
- 
-
+  &:hover {
+  transition: all 0.3s ease-out;
+  background:#2796ff ;
+  background-color: ${({ primary }) =>
+    (primary ? '#2796FF' : '#2796FF')};
+    }
+   
 `;
 
 export const MainC =styled.div`
-display:flex;
-justify-content: center;
+position:absolute;
+display:flex
 align-items:center;
-width:30%;
-height:30%;
-margin-right: 15%;
-padding-right:15%;
-
-imgGirl{
-  float:right;
-}
-
-  h1{
-    color: white;
-    padding:1em;
-    display:flex;
-   flex-wrap:wrap;
-   margin-left:0.5 rem;
-  }
-p{
-  color: white;
-  padding:1em;
-  display:flex;
- flex-wrap:wrap;
- margin-left:0.5 rem; 
-}
-`;
-export const FooterC = styled.div`
-display:inline-block;
-width:20%;
-height:20%;
-margin-right: 15%;
-padding-right:15%;
+justify-content:center;
+text-align:center;
+margin-right: 20%;
 
 `;
 
-export const DiscoverC=styled.div;`
-display: flex;
-justify-content: space-between;
-align-content :center;
-height: 80px;
-z-index: 1;
-width: 100%;
-padding: 0 24px;
-max-width: 1100px;
-position:sticky;
-background-color:
-flex-wrap:wrap;
+export const ImgG=styled.div`
+display:flex;
+align-items:center;
+justify-content: center;
+margin-right: 20%;
+margin-left:20%;
+margin-top:20%;
+`;
+
 
 h1{
-    color:white;
-    padding:1em;
-    display:flex;
-   flex-wrap:wrap;
-   margin-left:0.5 rem;
-  }
-p{
-  color: white;
+  display:flex:
+  justify-content:center;
+  text-align:center;
+  color:white;
+  font-size:20px;
   padding:1em;
+  line-height: 1.2em;	 
+
+
+p{
   display:flex;
- flex-wrap:wrap;
- margin-left:0.5 rem; 
+justify-content: space-between;
+  text-align:center;
+  color:white;
+  font-size: 20px;
 }
 `;
 
 
+export const DiscoverC = styled.div`
+display:flex;
+display:inline-block;
+margin-right: 50%;
+ flex-wrap: wrap;
+text-align:center;
+justify-content:center;
+flex-wrap:wrap;
 
+}
+ 
+.wrapper h1 {
+  text-align: center;
+  width: 100%;
+}
+`;
+/*export const Box=styled.div`
+  display: flex;
+  width: 100%;
+  height: 300px;
+  background-color: black;
+  
+`;
 
+export const Boxes=styled.div`
+    background-color:black;
+    width: 30%;
+    height: 270px;
+    padding-left: 15px;
+    padding-top: 15px;    
+`;
 
+export const BoxA=styled.div`
+background-color: black;
+padding:0.5em;
+margin:20%
+float: left;
+`;
+
+export const BoxM=styled.div`
+background-color: black;
+padding: 0.5em;
+margin:20%
+margin-left: auto;
+margin-right: auto;
+}
+
+`;
+
+export const BoxE=styled.div`
+background-color: black;
+padding: 0.5em;
+margin:20%
+position: absolute ;
+margin-top: 0;
+float: right;
+
+`;
+export const ImgC=styled.div`
+display:flex;
+flex:float;
+float:right;
+width: 50px;
+height: 50px;
+`;
+export const JoinB = styled.button`
+	background:${props => (props.isRed ? "red" : "blue")};
+	color: white;
+	border: none;
+	padding: 5px;
+	border-radius: 5px;
+    
+`;
+  
+export const FooterC = styled.div`
+display:flex;
+justify-content: space-between;
+text-align:center;
+width:10%;
+height:10%;
+margin-right: 15%;
+padding-right:15%;
+
+`;

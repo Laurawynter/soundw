@@ -20,7 +20,7 @@ const Navbar = () => {
         <Nav className={colorChange ? 'navbar colorChange' : 'navbar'}>
            <NavContainer>
            <img src={logo} className="logo" alt="logo.png" />
-            <h1>Soundwave</h1>
+            <h2>Soundwave</h2>
             <NavLinks href="#">Discover</NavLinks>
                <NavMenu>
                 <NavItem>
