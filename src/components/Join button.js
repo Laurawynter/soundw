@@ -1,7 +1,8 @@
 import React from "react";
+import {JoinB} from"./styled-components"
 
 const Joinbutton = () => {
-    return <button>Join Now</button>;
+    return <JoinB>Join Now</JoinB>;
   };
  
   export default Joinbutton;

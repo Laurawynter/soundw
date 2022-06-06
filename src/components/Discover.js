@@ -27,6 +27,6 @@ return (
 
 
 
-export default Discover;    
+export default Discover; 
  
     

@@ -157,91 +157,67 @@ background-color: ${({ primary }) =>
 `;
 
 export const MainC =styled.div`
-position:absolute;
 display:flex
-align-items:center;
-justify-content:center;
-text-align:center;
-margin-right: 20%;
+align-items:right;
+text-align:right;
+color:white;;
+padding:0;
+
 
 `;
 
 export const ImgG=styled.div`
 display:flex;
-align-items:center;
 justify-content: center;
-margin-right: 20%;
+margin-right: 40%;
 margin-left:20%;
-margin-top:20%;
+margin-top:50%;
+
 `;
 
-
-h1{
-  display:flex:
-  justify-content:center;
-  text-align:center;
-  color:white;
-  font-size:20px;
-  padding:1em;
-  line-height: 1.2em;	 
-
-
-p{
-  display:flex;
-justify-content: space-between;
-  text-align:center;
-  color:white;
-  font-size: 20px;
-}
+export const h1=styled.h1`
+ display:flex;
+ line-height: 200px;
+background-color:white;
+  padding:2em;
+  margin-left:50%;
 `;
 
 
 export const DiscoverC = styled.div`
-display:flex;
-display:inline-block;
-margin-right: 50%;
- flex-wrap: wrap;
-text-align:center;
-justify-content:center;
-flex-wrap:wrap;
+display:flex
+align-items:left;
+text-align:left;
+color:white;
 
-}
- 
-.wrapper h1 {
-  text-align: center;
-  width: 100%;
-}
 `;
-/*export const Box=styled.div`
+export const Box=styled.div`
   display: flex;
-  width: 100%;
-  height: 300px;
+  width: 200%;
+  height:200px;
   background-color: black;
   
 `;
 
-export const Boxes=styled.div`
+export const BoxesC=styled.div`
+    position:absolute
     background-color:black;
-    width: 30%;
-    height: 270px;
-    padding-left: 15px;
-    padding-top: 15px;    
+    width: 20%;
+    height: 30px;
+    margin-left: 20%;
+    padding-top: 20px;    
 `;
 
 export const BoxA=styled.div`
+position;absolute;
 background-color: black;
-padding:0.5em;
 margin:20%
-float: left;
+padding:20%
 `;
 
 export const BoxM=styled.div`
 background-color: black;
-padding: 0.5em;
-margin:20%
-margin-left: auto;
-margin-right: auto;
-}
+
 
 `;
 
@@ -251,32 +227,61 @@ padding: 0.5em;
 margin:20%
 position: absolute ;
 margin-top: 0;
-float: right;
 
 `;
 export const ImgC=styled.div`
 display:flex;
-flex:float;
 float:right;
-width: 50px;
-height: 50px;
+width: 300px;
+height:300px;
+margin-right:15%;
+
+
 `;
-export const JoinB = styled.button`
+  export const JoinB = styled.button`
 	background:${props => (props.isRed ? "red" : "blue")};
 	color: white;
 	border: none;
-	padding: 5px;
-	border-radius: 5px;
+	padding: 6px;
+	border-radius: 6px;
     
 `;
-  
-export const FooterC = styled.div`
-display:flex;
-justify-content: space-between;
-text-align:center;
-width:10%;
-height:10%;
-margin-right: 15%;
-padding-right:15%;
+
+export const J=styled.div`
+text-align:left;
+color:white;
 
 `;
+export const JoiS =styled.div`
+display:flex
+align-items:right;
+float:right;
+color:white;
+width: 600px;
+height:500px;
+margin-right:15px;
+margin left:15%
+margin bottom:20%
+
+
+`;
+  
+export const Wrapper= styled.div`
+color:${(props) =>props.color};
+display:flex;
+flex-direction:column;
+justify-content:center;
+max-widht:100px;
+margin:auto;
+`;
+export const Column=styled.div`
+display:flex;
+flex-direction:column
+text-align :left
+text-decoration:none;
+`;
+/*export const =styled.ul2`
+justify-content:space-between;
+flex-direction:end;
+text-decoration:none;
+`;*/

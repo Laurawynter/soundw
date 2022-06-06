@@ -6,7 +6,7 @@
   import {ImgG} from "./styled-components";
   import Circle from"./styled-components";
   import CuartoC from "./styled-components";
-  
+
   function Main(){
   return(
   <div>
@@ -16,10 +16,11 @@
     <ImgG>
   <img src={landingPagegirl} className="landing-page-girl" alt="landing-page-girl" />
   </ImgG>
-  <h1 className="centertext"> Feel the Music </h1>
+  <div>
+  <h1> Feel the Music</h1> 
   <p>Stream over 20  thousands songs with one click</p>
   <Joinbutton/>
-  </section>
+  </div>
   </MainC> 
 
 

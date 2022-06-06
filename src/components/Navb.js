@@ -31,16 +31,15 @@ background-color:
 flex-wrap:wrap;
 
 h2{
-
   color: white;
+  margin-right:50%;
   display :flex;
   padding:1em;
   witdth:50%;
   max-widht:600px:
   height:300px;
-  vertical-align: middle;
 
-}
+    
 
 `;
 export const NavLogo = styled.a`
@@ -80,7 +79,7 @@ margin-right: 2em;
 
 `;
 export const NavLinks = styled.div`
-color: #808080; 
+color: white; 
 display:flex;
 display:inline-block;
 margin: 1em;
