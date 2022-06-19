@@ -16,10 +16,10 @@ import Discover from './Discover.js';
 }*/
 
 
-export const Circle = styled.div`
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
+/*export const Circle = styled.div`
+  width: 50%;
+  height: 50%;
+  border-radius: 5%;
   background: #5cb85c;
 
 
@@ -38,7 +38,7 @@ width:20%;
 height:20%;
 background-color :#rgba(52,87,178,0.1) ;
 position: absolute;
-`
+`*/
 ;
 
 export const JoinSec = styled.div`
