@@ -1,12 +1,12 @@
 import React, { } from 'react';
 import logo from "../images/logo.png";
-import {NavContainer,NavItem,NavLinks,NavMenu,Nav}from './Navb';
+import {NavContainer,NavItem,NavLinks,NavMenu,Nav}from './NavB';
 import { useState } from 'react';
-import { Fragment } from 'react';
 
-const Navbar = () => {
+
+const NavBar = () => {
   const [colorChange, setColorchange] = useState(false);
-  const changeNavbarColor = () =>{
+  const changeNavBarColor = () =>{
      if(window.scrollY >= 80){
        setColorchange(true);
      }
@@ -14,9 +14,9 @@ const Navbar = () => {
        setColorchange(false);
      }
   }; 
-  window.addEventListener('scroll', changeNavbarColor);
+  window.addEventListener('scroll', changeNavBarColor);
   return (
-      <Fragment>
+      
         <Nav className={colorChange ? 'navbar colorChange' : 'navbar'}>
            <NavContainer>
            <img src={logo} className="logo" alt="logo.png" />
@@ -29,8 +29,8 @@ const Navbar = () => {
               </NavMenu>
            </NavContainer>
         </Nav>
-      </Fragment>
+
     )
 }
   
-export default Navbar;
+export default NavBar;

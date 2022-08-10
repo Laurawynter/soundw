@@ -1,31 +1,29 @@
-import GlobalStyle from './components/globalStyle.js';
-import React from 'react';
-import Navbar from './components/Navbar.js';
+import GlobalStyle from './components/GlobalStyle.js';
+import Navbar from './components/NavBar.js';
 import Main from './components/Main.js';
-import {Fragment} from 'react';
-import Join  from './components/Join.js'
-import Discover from'./components/Discover.js';
-
-
-
+import Discover from './components/Discover.js';
+import Join  from './components/Join.js';
+import Footer from './components/Footer.js';
+import './App.css'
 
 
 function App() {
   return (
 
   <div>
-  <GlobalStyle/>
+ 
+ <GlobalStyle/>
   <Navbar/>
   <Main/>
-  <Discover/>
   <Join/>
-  <Fragment/>
  
+  
+  
  
   
  </div>
   )
   }
   
-  export default App
+  export default App;
                                     

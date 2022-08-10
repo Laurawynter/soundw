@@ -1,10 +1,5 @@
 
 import styled from 'styled-components'
-import Main from './Main.js';
-import Footer from'./Footer.js';
-import Discover from './Discover.js';
-
-
 
 
 /*export default function styledComponents (){
@@ -16,41 +11,93 @@ import Discover from './Discover.js';
 }*/
 
 
-/*export const Circle = styled.div`
-  width: 50%;
-  height: 50%;
-  border-radius: 5%;
-  background: #5cb85c;
 
+
+export const CircleP = styled.div`
+position:absolute;
+width: 20em; 
+height:20em; 
+background-color:#3457b21a;
+border-radius:50%;
+margin-right:40em;
+overflow:hidden;
+opacity:0.33;
+transform:  translate(140px,-140px);
+transform: translate(300px,-100px);
+
+`;
+
+export const Circle2 = styled.div`
+    position:absolute;
+    height: 21em;
+    width: 21em;
+    background-color:#bc3a801a;
+    border-radius: 50%;
+    left: 0em;
+    transform: translate(140px, -140px);
+    transform: translate(300px, -100px);
+    opacity:0.33;
+    overflow:hidden;
 
 `;
 
-export const CuartoC = styled.div`
-width: 50px; 
-height: 50px; 
-border: 2px solid #555; 
-background: #5cb85c;
-border-radius: 0 100% 0 0;
+/*export const Circle3 = styled.div`
+  background-color: #202027;
+    margin: 4em;
+    margin: 3em;
+    padding: 2em;
+    border-radius: 15px;
+    width: 25em;
+
+`;*/
+
+export const BoxA=styled.div`
+    display :flex
+    position:absolute
+    background-color:black;
+    width: 2em;
+    height: 2em;
+     
+`;
+
+export const BoxC=styled.div`
+
+background-color: black;
+widht:2em;
+height:2em;
+`;
+
+export const BoxM=styled.div`
+background-color: black;
+widht:2em;
+height:2em;
 
 `;
-export const Circle3 = styled.div`
-width:20%;
-height:20%;
-background-color :#rgba(52,87,178,0.1) ;
-position: absolute;
-`*/
-;
-
+  export const JoinB = styled.button`
+	display:flex;
+  align-content:center;
+  margin-left:3em;
+  background-color: ${props => (props.isRed ? "red" : "blue")};
+	color: white;
+	border: none;
+	padding: 6px;
+	border-radius: 6px;*/
+  
+`;
 export const JoinSec = styled.div`
 color: #fff;
-padding: 200px 0;
-background: #2F303A;
+widht:50px;
+height:50px;
+background-color: #2F303A;
+
 `;
+
 export const InfoRow = styled.div`
 display: flex;
 flex-wrap: wrap;
 align-items: center;
 flex-direction: row;
+
 `;
 export const InfoColumn = styled.div`
 margin-bottom: 15px;
@@ -92,9 +139,10 @@ justify-content: center;
 @media screen and (max-width: 480px) {
 padding: 10px;
 }
+
 `;
 export const Form = styled.form`
-background: #202027;
+background-color: #202027;
 max-width: 500px;
 height: auto;
 width: 100%;
@@ -112,18 +160,20 @@ export const FormLabel = styled.label`
 margin-bottom: 8px;
 font-size: 14px;
 color: #fff;
+
 `;
 export const FormInput = styled.input`
 padding: 10px 16px;
 margin-bottom: 25px;
 border: 1px solid;
 border-radius: 4px;
-background: #202027;
+background-color: #202027;
 border-color: #2E3852;
 color: #fff;
+
 `;
 export const FormButton = styled.button`
-background: #1762A7;
+background-color: #1762A7;
 padding: 10px 0;
 border: none;
 border-radius: 4px;
@@ -132,137 +182,38 @@ font-size: 15px;
 cursor: pointer;
 &:hover {
 transition: all 0.3s ease-out;
-background:#2796ff ;
 background-color: ${({ primary }) =>
 (primary ? '#2796FF' : '#2796FF')};
 }
 
  `;
  export const Joinbutton = styled.button`
-  background:blue;
+  background-color:blue;
   position:absolute;
-  display :flex ;
+  display:flex;
   justify-content:center;
-  cursor: pointer
-  font-size:1em
+  cursor: pointer;
+  font-size:1em;
   border:2px solid black;
   padding: 10px;
   &:hover {
   transition: all 0.3s ease-out;
-  background:#2796ff ;
   background-color: ${({ primary }) =>
     (primary ? '#2796FF' : '#2796FF')};
     }
    
 `;
 
-export const MainC =styled.div`
-display:flex
-align-items:right;
-text-align:right;
-color:white;;
-padding:0;
-
-
-`;
-
-export const ImgG=styled.div`
-display:flex;
-justify-content: center;
-margin-right: 40%;
-margin-left:20%;
-margin-top:50%;
-
-`;
-
-export const h1=styled.h1`
- display:flex;
- line-height: 200px;
-background-color:white;
-  padding:2em;
-  margin-left:50%;
-`;
-
-
-export const DiscoverC = styled.div`
-display:flex
-align-items:left;
-text-align:left;
-color:white;
-
-`;
-export const Box=styled.div`
-  display: flex;
-  width: 200%;
-  height:200px;
-  background-color: black;
-  
-`;
-
-export const BoxesC=styled.div`
-    position:absolute
-    background-color:black;
-    width: 20%;
-    height: 30px;
-    margin-left: 20%;
-    padding-top: 20px;    
-`;
-
-export const BoxA=styled.div`
-position;absolute;
-background-color: black;
-margin:20%
-padding:20%
-`;
-
-export const BoxM=styled.div`
-background-color: black;
-
-
-`;
-
-export const BoxE=styled.div`
-background-color: black;
-padding: 0.5em;
-margin:20%
-position: absolute ;
-margin-top: 0;
-
-`;
-export const ImgC=styled.div`
-display:flex;
-float:right;
-width: 300px;
-height:300px;
-margin-right:15%;
-
-
-`;
-  export const JoinB = styled.button`
-	background:${props => (props.isRed ? "red" : "blue")};
-	color: white;
-	border: none;
-	padding: 6px;
-	border-radius: 6px;
-    
-`;
-
-export const J=styled.div`
-text-align:left;
-color:white;
-
-`;
 export const JoiS =styled.div`
-display:flex
+display:flex;
 align-items:right;
 float:right;
 color:white;
-width: 600px;
+width: 500px;
 height:500px;
 margin-right:15px;
-margin left:15%
-margin bottom:20%
-
+margin-left:15%;
+margin-bottom:20%;
 
 `;
   
@@ -274,14 +225,10 @@ justify-content:center;
 max-widht:100px;
 margin:auto;
 `;
+
 export const Column=styled.div`
 display:flex;
-flex-direction:column
-text-align :left
+flex-direction:column;
+text-align:left;
 text-decoration:none;
 `;
-/*export const =styled.ul2`
-justify-content:space-between;
-flex-direction:end;
-text-decoration:none;
-`;*/

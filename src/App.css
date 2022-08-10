@@ -1,11 +1,107 @@
+body{
+   margin:0;
+   padding:0;
+   height: 200vh;;
+   width: 200vh;
+   background-color:#2F303A;
 
-
-CuartoC{
-    width: 100px; 
-    height: 100px; 
-    border: 2px solid #555; 
-    background: #5cb85c;
-    -moz-border-radius: 0 100% 0 0;
-    -webkit-border-radius: 0 100% 0 0;
-    border-radius: 0 100% 0 0;
 }
+
+section.main{
+    
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    text-align:right;
+    color:white;
+    padding:0;
+    background-color:#2F303A;
+    height:100vh;
+    z-index:1;
+   
+    }
+
+
+.landingpagegirl{
+    width:25em;
+    height:25em;
+    margin-right:0em;
+    position: relative;
+   
+   
+
+}
+ 
+
+/*.form{
+    background-color: #202027;
+    margin: 4em;
+    margin: 3em;
+    padding: 2em;
+    border-radius: 15px;
+    width: 25em;
+
+}*/
+ 
+h1{
+     font-family: poppings;
+     font-size: 3em;
+     display: block;
+     align-items: center;
+     margin-right:3em;
+     
+ }
+
+ p{font-family: poppings;
+    font-size: 1.5em;
+    display: block;
+    align-items: center;
+    margin-left:1.5em;
+    bottom:150px;
+ }
+
+ section.discover{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    color:white;
+    height:100vh;
+    z-index:1;
+   
+    }
+
+
+ .covers{
+    width: 10em;
+    height:10em;
+    display:flex; 
+    align-items:right ;
+}
+
+.title{
+    font-family: poppings;
+    font-size: 8em;
+    display: block;
+    align-items: center;
+    margin-left:3em;
+
+}
+
+div.h1{
+    font-family: poppings;
+    font-size: 8em;
+    display: block;
+    align-items: center;
+    margin-left:3em;
+    
+}
+
+.footer {
+    display:flex;
+    height: fit-content;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+

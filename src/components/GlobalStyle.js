@@ -11,7 +11,7 @@ background-color:#2F303A;
 
 
 }
-;`
+`
 
 export default GlobalStyle;
  
