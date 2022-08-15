@@ -1,4 +1,4 @@
- import Router from"./"
+/* import Router from"./"
  <Route path="/join" />
         </Route>
       </Routes>
@@ -6,4 +6,4 @@
     </Router>
 
   );
-  
+  */

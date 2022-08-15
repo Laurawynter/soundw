@@ -1,4 +1,4 @@
-import React from 'react';
+/*import React from 'react';
 import { InfoRow, InfoColumn, Form, FormWrap, FormContent,
 FormLabel, FormInput, FormButton, JoinSec } from './StyledComponents'
 
@@ -27,4 +27,4 @@ const JoinSection = (formStart) => {
   )
 };
 
-export default JoinSection;
+export default JoinSection;*/

@@ -1,7 +1,7 @@
-import React from "react";
+/*import React from "react";
 import JoinSection from "./JoinSection";
-import Footer from "./Footer.js";
-import { JoiS} from "./StyledComponents";
+/*import Footer from "./Footer.js";
+import {JoiS} from "./StyledComponents";
 
 function Join (){
     return (
@@ -13,4 +13,4 @@ function Join (){
                </div>
     )
 }
-export default Join;
+export default Join;*/
