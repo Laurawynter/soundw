@@ -1,11 +1,17 @@
 import React from "react";
 import JoinSection from "./JoinSection";
-import { JoiS, JC } from "./StyledComponents";
+import { JoiS, JC,CircleJ,Title } from "./StyledComponents";
 
 function Join() {
   return (
-    <JC className="JoinContainer">
-      <section><h2>Join the fun</h2></section>
+   
+   <JC>
+    <CircleJ/>
+     
+      <section>
+      <Title>Join the fun</Title>
+      </section>
+     
       <JoiS>
         <JoinSection />
       </JoiS>

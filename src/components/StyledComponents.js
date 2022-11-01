@@ -18,23 +18,25 @@ export const M = styled.main`
 export const Girl = styled.img`
   width: 20em;
   height: 20em;
-  margin-riht:15em;
+  margin-right:15em;
   margin-top: 10em;
-
-  .h1 {
-    display:flex;
-    font-size: 3em;
-   
-  }
-
-  .p {
-    display:flex;
+`;
+  export const Titl =styled.h1`
     font-family: poppings;
-    font-size: 2em;
+    font-size: 2.5em;
+    display: block;
     align-items: center;
-    margin-left: 1.5em;
+    margin-right:6em;
     
-  }
+`;
+
+  export const Pa= styled.p`
+    display:flex;
+    font-size: 1em;
+    align-items: center;
+    margin-right: 0.5em;
+    
+
 
 `;
 export const CircleP = styled.div`
@@ -63,7 +65,7 @@ export const Circle2 = styled.div`
   overflow: hidden;
 `;
 export const Circle3 = styled.div`
-  background-color: black;
+  background-color: violeta;
   transform: translate(300px, -150px);
   transform: translate(600px, -300px);
   opacity: 0.33;
@@ -82,24 +84,23 @@ export const DiscoverC = styled.section`
 
 `;
 export const T = styled.h1`
-  font-family: poppings;
   font-size: 4em;
-  margin-left:10em;;
-  margin-top:2.5em;
+  margin-left:7em;
+  margin-top:2em;
 `;
 
 export const P = styled.text`
   font-family: poppings;
   font-size: 1.5em;
   display: block;
-  margin-left: 22em;
+  margin-left: 18em;
   margin-top: 2em;
 `;
 
 export const Cov = styled.img`
   width: 25em;
   height: 25em;
-  margin-left: 8em;
+  margin-right:25em;
   margin-top: 10em;
 `;
  
@@ -169,31 +170,25 @@ export const InfoColumn = styled.div`
   maxim-bottom:50vh;
   padding-left:20vh;
   flex: 1;
-  max-width: 100vh;
   flex-basis: 50vh;
-  @media screen and (max-width: 768px) {
-    max-width: 100%;
-    flex-basis: 100%;
+  flex-basis: 100%;
     display: flex;
     justify-content: center;
-  }
+  
 `;
 
 export const FormWrap = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  @media screen and (max-width: 400vh) {
-    height:50em;
-  }
+  
 `;
 export const FormContent = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  @media screen and (max-width: 480px) {
-    padding: 10px;
-  }
+  
+  
 `;
 export const Form = styled.form`
   background-color: #202027;
@@ -206,9 +201,6 @@ export const Form = styled.form`
   padding: 40px 32px;
   border-radius: 15px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
-  @media screen and (max-width: 480px) {
-    padding: 32px 32px;
-  }
 `;
 export const FormLabel = styled.label`
   margin-bottom: 8px;
@@ -226,9 +218,7 @@ export const FormInput = styled.input`
 export const FormButton = styled.button`
   background-color: #1762a7;
   height: 100%;
-
   border: none;
-  border-radius: 4px;
   color: #fff;
   font-size: 15px;
   cursor: pointer;
@@ -240,11 +230,10 @@ export const FormButton = styled.button`
 export const Joinbutton = styled.button`
   background-color: blue;
   position: absolute;
-  display: flex;
   justify-content: center;
   cursor: pointer;
   font-size: 1em;
-  border: 2px solid black;
+  border-radius: 2px solid black;
   padding: 10px;
   &:hover {
     transition: all 0.3s ease-out;
@@ -254,19 +243,32 @@ export const Joinbutton = styled.button`
 export const JC=styled.div`
   display:flex;
   height:40em;
-  widht:30em;
+  widht:20em;
   justify-content: center;
   color: white;
-  margin: 10em ;
-  font-size:2em;
+  margin: 6em ;
   align-items: center;
-  margin-left: 10em;
-  
+  margin-left: 18em;
+ font-size:1.5em;
 
-  .h2{display:flex;
-  margin-right:2em;
-  margin-bottom:10em;
-  }
+  `;
+ 
+ export const CircleJ = styled.div`
+  position: absolute;
+  width: 30em;
+  height: 20em;
+  background-color: #3457b21a;
+  border-radius: 50%;
+  margin-right: 40em;
+  overflow: hidden;
+  opacity: 0.33;
+  transform: translate(140px, -140px);
+  transform: translate(300px, -100px);
+`;
+  export const Title= styled.section`
+    display:flex;
+    font-size:3.5em;
+  
 
 
 `;

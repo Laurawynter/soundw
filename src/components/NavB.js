@@ -9,16 +9,15 @@ position: sticky;
 top:0;
 /* Fix your navbar by using above two lines of code */
 /*z-index:1;*/
-@media screen and (max-width: 915px) {
+@media screen and (max-width: 660px) {
 transition: 0.8s all ease;
 }
 `;
 export const NavContainer = styled.div`
 display: flex;
 justify-content:space-around;
-
-margin-bottom:4em;
-margin-left:5em;
+margin-top:2em;
+margin-left:0em;
 color:white;
 
 .NBar{
@@ -27,32 +26,19 @@ color:white;
 } 
 
 img.logo {
-  height:60px;
-  widht:60px;
-  margin-left:5em;
+  height:70px;
+  margin-left:1.5em;
+  
 }
 
 `;
-export const NavLogo = styled.a`
-color: #202027;
-justify-self: flex-start;
-cursor: pointer;
-font-size: 1.5rem;
-display: flex;
-align-items: left;
-margin-left: 24rem;
-text-decoration: none;
-
-`;
-
-
 
 export const NavItem = styled.li`
-display:none;
+display:flex;
 list-style-type: none;
 text-decoration: none;
-color: #5e5e5e;
-gap:2em;
+gap:3em;
+font-size:1.5em;
   
   a:hover {
   opacity: 1;

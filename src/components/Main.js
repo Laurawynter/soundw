@@ -1,7 +1,7 @@
 import React from "react";
 import landingPagegirl from "../images/landingpagegirl.png";
 import JoinButton from "./JoinButton.js";
-import { Circle2, Circle3, CircleP,Girl,M } from "./StyledComponents";
+import { Circle2, Circle3, CircleP,Girl,M,Titl,Pa } from "./StyledComponents";
 
 function Main() {
   return (
@@ -18,8 +18,8 @@ function Main() {
         />
     
         <div>
-          <h1> Feel the Music</h1>
-          <p>Stream over 20 thousands songs with one click</p>
+          <Titl> Feel the Music</Titl>
+          <Pa>Stream over 20 thousands songs with one click</Pa>
           <JoinButton>Join Now</JoinButton>
         </div>
      
