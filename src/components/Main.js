@@ -1,15 +1,15 @@
 import React from "react";
 import landingPagegirl from "../images/landingpagegirl.png";
 import JoinButton from "./JoinButton.js";
-//import Circle from"./styled-components";
-import { Circle2, CircleP,Girl,M } from "./StyledComponents";
+import { Circle2, Circle3, CircleP,Girl,M } from "./StyledComponents";
 
 function Main() {
   return (
     <M>
-      
+       
         <CircleP />
         <Circle2 />
+        <Circle3/>
 
         <Girl
           src={landingPagegirl}

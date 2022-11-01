@@ -1,49 +1,42 @@
 import styled from "styled-components";
-/*import Footer from './Footer';*/
 
-/*export default function styledComponents (){
-
-    return
-    <>
-    Styled-Components
-    </>
-}*/
 
 export const M = styled.main`
   display: flex;
-  gap: 3em;
   justify-content: center;
-  flex-direction: row;
+  text-align: center;
   align-items: center;
+  margin-top: 2em;
+  align-content: center;
   color: white;
-  padding: 0;
   background-color: #2f303a;
-  height: 50vh;
+  height: 20vh;
+  font-size:1.5em;
   z-index: 1;
 `;
 
 export const Girl = styled.img`
-  width: 25em;
-  height: 25em;
-  margin-right: 5em;
+  width: 20em;
+  height: 20em;
+  margin-riht:15em;
+  margin-top: 10em;
 
   .h1 {
-    font-family: poppings;
+    display:flex;
     font-size: 3em;
-    display: block;
-    align-items: center;
+   
   }
 
   .p {
+    display:flex;
     font-family: poppings;
-    font-size: 1.5em;
-    display: block;
+    font-size: 2em;
     align-items: center;
     margin-left: 1.5em;
-    bottom: 150px;
+    
   }
-`;
 
+`;
 export const CircleP = styled.div`
   position: absolute;
   width: 20em;
@@ -70,58 +63,87 @@ export const Circle2 = styled.div`
   overflow: hidden;
 `;
 export const Circle3 = styled.div`
-  background-color: #202027;
-  margin: 4em;
-  margin: 3em;
+  background-color: black;
+  transform: translate(300px, -150px);
+  transform: translate(600px, -300px);
+  opacity: 0.33;
   padding: 2em;
-  border-radius: 15px;
-  width: 25em;
+  border-radius: 50px;
+  width: 2em;
 `;
 
 export const DiscoverC = styled.section`
-  display: flex;
+  display:flex;
+   height:30vh;
   justify-content: center;
-  flex-direction: row;
-  align-items: center;
+  align-items: inline-block;
   color: white;
-  background-color: #2f303a;
-  height: 50vh;
+  margin: 8em ; 
+
 `;
 export const T = styled.h1`
-  font-size: 5em;
-  margin-left: 1em;
   font-family: poppings;
+  font-size: 4em;
+  margin-left:10em;;
+  margin-top:2.5em;
 `;
 
 export const P = styled.text`
   font-family: poppings;
   font-size: 1.5em;
   display: block;
-  margin-left: 3em;
+  margin-left: 22em;
+  margin-top: 2em;
 `;
+
 export const Cov = styled.img`
-  width: 20em;
-  height: 20em;
-  margin-left: 17em;
+  width: 25em;
+  height: 25em;
+  margin-left: 8em;
+  margin-top: 10em;
+`;
+ 
+ export const BoxC = styled.div`
+display:flex;
+flex-direction:row
+justify-content: space-around;
+align-content:inline;
+widht: 8em;
+color:white;
+margin -top :0.3em
+margin-left: 20em;
+
 `;
 
 export const BoxA = styled.div`
   display: flex;
-  background-color: black;
-  height: 2em;
+  background-color:black;
+  height: 8em;
+  width: 8em;
+  margin-bottom: 0.5em;
+  margin-right:2em;
+  margin-left: 29em;
+  color:white;
 `;
 
-export const BoxC = styled.div`
+export const BoxD = styled.div`
   display: flex;
   background-color: black;
-  height: 2em;
+  height: 8em;
+  width: 8em;
+  margin-bottom: 0.3em;
+  margin-right: 2em;
 `;
 
 export const BoxM = styled.div`
   display: flex;
   background-color: black;
-  height: 2em;
+  height: 8em;
+  width: 8em;
+  margin-bottom: 0.3em;
+  margin-right:20em;
 `;
+
 export const JoinB = styled.button`
   display: flex;
   align-content: center;
@@ -131,13 +153,12 @@ export const JoinB = styled.button`
   padding: 6px;
   border-radius: 6px;
 `;
-export const JoinSec = styled.div`
-  color: #fff;
-  widht: 50px;
-  height: 50px;
-  background-color: #2f303a;
-`;
 
+export const JoinSec= styled.div`
+color:#fff;
+background-color: #2F303A
+widht: auto
+`;
 export const InfoRow = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -145,12 +166,11 @@ export const InfoRow = styled.div`
   flex-direction: row;
 `;
 export const InfoColumn = styled.div`
-  margin-bottom: 15px;
-  padding-right: 55px;
-  padding-left: 15px;
+  maxim-bottom:50vh;
+  padding-left:20vh;
   flex: 1;
-  max-width: 50%;
-  flex-basis: 50%;
+  max-width: 100vh;
+  flex-basis: 50vh;
   @media screen and (max-width: 768px) {
     max-width: 100%;
     flex-basis: 100%;
@@ -158,26 +178,16 @@ export const InfoColumn = styled.div`
     justify-content: center;
   }
 `;
-export const Heading = styled.h1`
-  display: flex;
-  align-content: row;
-  margin-bottom: 5px;
-  font-size: 60px;
-  line-height: 1.1;
-  font-weight: 600;
-  color: ${({ lightText }) => (lightText ? "#F7F8FA" : "#202027")};
-`;
+
 export const FormWrap = styled.div`
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  @media screen and (max-width: 400px) {
-    height: 80%;
+  @media screen and (max-width: 400vh) {
+    height:50em;
   }
 `;
 export const FormContent = styled.div`
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -187,9 +197,9 @@ export const FormContent = styled.div`
 `;
 export const Form = styled.form`
   background-color: #202027;
-  max-width: 500px;
-  height: auto;
-  width: 100%;
+  max-width: 660px;
+  height: 20em;
+  width: 50em;
   z-index: 1;
   display: grid;
   margin: 0 auto;
@@ -215,7 +225,8 @@ export const FormInput = styled.input`
 `;
 export const FormButton = styled.button`
   background-color: #1762a7;
-  padding: 10px 0;
+  height: 100%;
+
   border: none;
   border-radius: 4px;
   color: #fff;
@@ -240,49 +251,52 @@ export const Joinbutton = styled.button`
     background-color: ${({ primary }) => (primary ? "#2796FF" : "#2796FF")};
   }
 `;
+export const JC=styled.div`
+  display:flex;
+  height:40em;
+  widht:30em;
+  justify-content: center;
+  color: white;
+  margin: 10em ;
+  font-size:2em;
+  align-items: center;
+  margin-left: 10em;
+  
 
+  .h2{display:flex;
+  margin-right:2em;
+  margin-bottom:10em;
+  }
+
+
+`;
 export const JoiS = styled.div`
   display: flex;
   align-items: right;
   float: right;
   color: white;
-  width: 200px;
-  height: 200px;
 `;
 
-export const Wrapper = styled.div`
-  color: ${(props) => props.color};
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  widht: 100%;
-  height: 18px;
-  clear: both;
-  bottom: 0;
+  export const FooterC= styled.div`
+    display:flex;
+    padding:2em;
+    justify-content: space-around;
+    font-weight: bolder;
+    background-color: black;
+    height: 1.5em;
+    widht: 100vh;
+    
+   
 `;
-
-export const Column = styled.div`
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  text-decoration: none;
-`;
-
 export const FooterLink = styled.a`
   color: white;
+  margin-right: 1em;
   text-decoration: none;
   cursor: pointer;
   &.active {
     color: #000000;
   }
+  `;
 
-  .title {
-    color: white;
-    text-decoration: none;
-    font-family: poppings;
-    font-size: 5em;
-    display: block;
-    align-items: center;
-    margin-left: 3em;
-  }
-`;
+  
+

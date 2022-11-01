@@ -1,7 +1,7 @@
 import React, { } from 'react';
 import logo from "../images/logo.png";
-import {NavContainer,NavItem,NavLinks,NavMenu,N}from './NavB';
-import { useState } from 'react';
+import {NavContainer,NavItem,NavLinks,NavMenu,}from './NavB';
+
 
 
 const NavBar = () => {

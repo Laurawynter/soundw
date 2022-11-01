@@ -1,29 +1,27 @@
-/*import React from "react";
-/*import facebook from "../images/facebook.svg";
+import React from "react";
+import facebook from "../images/facebook.svg";
 import twitter from "../images/twitter.svg";
-import { Wrapper } from "./StyledComponents";
-import { Column } from "./StyledComponents";
-/*import {FooterLink,Title} from "./StyledComponents";*/
+import {FooterLink,FooterC} from "./StyledComponents";
 
-/*function Footer() {
+function Footer() {
   return (
-    <Footer>
-      <Wrapper>
-        <Column>
-          <Title>About us</Title>
+    <FooterC className="footer-container">
+    <section>
+          <FooterLink herf="#">About us</FooterLink>
           <FooterLink herf="#">Contact</FooterLink>
+          </section>  
+          <section>
           <FooterLink herf="#">Twitter</FooterLink>
-          <FooterLink herf="#">Facebook</FooterLink>
           <FooterLink>
             <img src={twitter} className="twitter" alt="twitter.svg" />
           </FooterLink>
-          <FooterLink>
+          <FooterLink herf="#">Facebook</FooterLink>
+         <FooterLink>
             <img src={facebook} className="facebook" alt="facebook.svg" />
           </FooterLink>
-        </Column>
-      </Wrapper>
-    </Footer>
+          </section>
+     </FooterC>
   )
 }
 
-export default Footer;*/
+export default Footer;

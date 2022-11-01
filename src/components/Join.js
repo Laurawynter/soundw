@@ -1,16 +1,16 @@
-/*import React from "react";
+import React from "react";
 import JoinSection from "./JoinSection";
-/*import Footer from "./Footer.js";
-import {JoiS} from "./StyledComponents";
+import { JoiS, JC } from "./StyledComponents";
 
-function Join (){
-    return (
-        <div>
-          
-            <h1>Join the fun</h1>
-            <JoiS><JoinSection/></JoiS>
-             <Footer/>
-               </div>
-    )
+function Join() {
+  return (
+    <JC className="JoinContainer">
+      <section><h2>Join the fun</h2></section>
+      <JoiS>
+        <JoinSection />
+      </JoiS>
+    </JC>
+  );
 }
-export default Join;*/
+
+export default Join;

@@ -1,9 +1,11 @@
 
 body{
-   
+    font-family: poppings;
     height: 100vh;;
     width: 100vh;
     background-color:#2F303A;
+    min-height:500px;
+    width: 100%;
   
   }
  
@@ -34,12 +36,12 @@ div.h1{
     
 }
 
-/*.footer {
+.footer {
     position:fixed;
     display:flex;
     height: fit-content;
     font-size: 15px;
     font-weight: bold;
-}*/
+}
 
 
