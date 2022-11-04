@@ -1,38 +1,45 @@
+
 import micro from "../images/microphone.svg";
 import more from "../images/more.svg";
 import covers from "../images/covers.jpg";
 import albums from "../images/albums.svg";
 /*import Footer from "./Footer.js";*/
-import { BoxC, BoxA, BoxM,BoxD,Cov, DiscoverC,T,P } from "./StyledComponents";
+import {Cov,T,P, D, BC,BA,BM,BD} from "./StyledComponents";
+
 
 function Discover() {
   return (
-    <DiscoverC>
-      <div className="discover-container">
-       <T>Discover new music</T>
-
-        <BoxC className ="box-container">
-          <BoxA src={albums} className="albums" alt="albums"  />
-        
-       
-        
-          <BoxD src={micro} className="micro" alt="micro"  />
-        
-       
-        
-          <BoxM src={more} className="more" alt="more" />
-        </BoxC>
-
-        <P>
-          By joining you can benefit by listening to the latest albums released.
-        </P>
-      </div>
-
-    
-        <Cov src={covers} className="covers" alt="covers" />
+  
+  <D className="discover-container">
+      <T>Discover new music</T>
+       <BC className="box-container">
+        <BA className="BoxA">
+          <img src={albums} className="albums" alt="charts" />
+          <span>Charts</span>
+        </BA>
+        <BM className="BoxM">
+          <img src={micro} className="micro" alt="micro" />
+          <span>Micro</span>
+        </BM>
+        <BD className="BoxD">
+       <img src={more} className="more" alt="more" />
+          <span>More</span>
+        </BD>
+        </BC>
+      
+      <P>
+        By joining you can benefit by listening to the latest albums released.
+      </P>
+     <div>
+     
+      <Cov src={covers} className="covers" alt="covers" />
         {/*<Footer />*/}
-        
-    </DiscoverC>
+        </div>
+        </D>
+       
+     
+     
+   
   );
 }
 

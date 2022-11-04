@@ -16,28 +16,32 @@ transition: 0.8s all ease;
 export const NavContainer = styled.div`
 display: flex;
 justify-content:space-around;
-margin-top:2em;
-margin-left:0em;
+margin-top:2.5em;
+margin-left:2em;
 color:white;
 
 .NBar{
   display:flex;
-  
-} 
-
-img.logo {
-  height:70px;
-  margin-left:1.5em;
-  
+   gap:2em;
+ 
+     
 }
+img.logo {
+  height:7em;
+  margin-left:1.5em;}
 
+`;
+export const H2 =styled.section`
+font-size:2.75em;
+margin-top:0.5em;
 `;
 
 export const NavItem = styled.li`
 display:flex;
 list-style-type: none;
 text-decoration: none;
-gap:3em;
+gap:2em;
+margin-top: 0.5em;
 font-size:1.5em;
   
   a:hover {
