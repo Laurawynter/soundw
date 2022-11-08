@@ -1,10 +1,9 @@
 
-import micro from "../images/microphone.svg";
-import more from "../images/more.svg";
-import covers from "../images/covers.jpg";
-import albums from "../images/albums.svg";
-/*import Footer from "./Footer.js";*/
-import {Cov,T,P, D, BC,BA,BM,BD} from "./StyledComponents";
+import micro from "../assets/microphone.svg";
+import more from "../assets/more.svg";
+import covers from "../assets/covers.jpg";
+import albums from "../assets/albums.svg";
+import {Cov,T,P, D, BC,BA,BM,BD} from "../components/StyledComponents";
 
 
 function Discover() {
@@ -33,7 +32,7 @@ function Discover() {
      <div>
      
       <Cov src={covers} className="covers" alt="covers" />
-        {/*<Footer />*/}
+      
         </div>
         </D>
        

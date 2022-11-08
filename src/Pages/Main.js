@@ -1,7 +1,7 @@
 import React from "react";
-import landingPagegirl from "../images/landingpagegirl.png";
-import JoinButton from "./JoinButton.js";
-import { Circle2, Circle3, CircleP,Girl,M,Titl,Pa,I } from "./StyledComponents";
+import landingPagegirl from "../assets/landingpagegirl.png";
+import JoinButton from "../components/JoinButton.js";
+import { Circle2, Circle3, CircleP,Girl,M,Titl,Pa,I } from "../components/StyledComponents";
 
 function Main() {
   return (

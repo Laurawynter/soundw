@@ -1,6 +1,7 @@
 import React, { } from 'react';
-import logo from "../images/logo.png";
-import {NavContainer,NavItem,NavLinks,NavMenu,H2}from './NavB';
+import logo from "../assets/logo.png";
+import {NavContainer,NavItems,H2}from './NavB';
+import { Link } from 'react-router-dom';
 
 
 
@@ -8,18 +9,18 @@ const NavBar = () => {
   
   return (
       
-        <NavMenu>
+      
            <NavContainer>
            <section className='NBar'>
-           <img src={logo} className="logo" alt="logo.png" />
+          <Link to='/'> <img src={logo} className="logo" alt="logo.png" /></Link>
            <H2 className="centerText">Soundwave</H2>
            </section>
-           <NavItem>
-            <NavLinks href="#">Discover</NavLinks>
-            <NavLinks href="#">Join</NavLinks>
-            </NavItem>
+           <NavItems>
+            <Link to='Discover' className='link'><h3>Discover</h3></Link>
+            <Link to='Join' className='link'><h3>Join</h3></Link>
+            </NavItems>
           </NavContainer>
-        </NavMenu>
+        
 
     )
 }

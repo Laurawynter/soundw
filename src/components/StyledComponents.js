@@ -9,7 +9,7 @@ export const M = styled.main`
   align-content: center;
   color: white;
   background-color: #2f303a;
-  height: 30vh;
+  height: 40vh;
   z-index: 1;
   font-size:1.5em;
 
@@ -76,7 +76,7 @@ justify-content:center;
 height:10vh;
 color: white;
 margin-left:-4em;
-margin-top:8em;
+margin-top:1em;
 padding:7em;
 font-size: 2em;
 
@@ -129,7 +129,7 @@ export const Cov = styled.img`
   float:right;
   width: 15em;
   height:15em;
-  margin-top: -10em;
+  margin-top: -14em;
   margin-right:4.5em;
 `;
  
@@ -230,7 +230,7 @@ export const Joinbutton = styled.button`
 `;
 export const JC=styled.div`
   display:flex;
-  height:30em;
+  height:25em;
   justify-content: center;
   color: white;
   margin: 6em ;
@@ -243,15 +243,15 @@ export const JC=styled.div`
   export const CircleJ = styled.div`
   position: absolute;
   background-color: #3457b21a;
-  right: 50em;
+  right: 60em;
   padding:19em;
-  bottom:-60em;
+  bottom:-20em;
   background-color: #bc3a801a;
   border-radius: 50%;
   margin-right: 38em;
   overflow: hidden;
-  opacity: 0.7;
-  transform: translate(680px, -140px);
+  opacity: 0.4;
+  transform: translate(1000px, -350px);
  `;
  export const CircleM = styled.div`
   position: absolute;
@@ -262,12 +262,12 @@ export const JC=styled.div`
   border-radius: 50%;
   margin-right: 18em;
   overflow: hidden;
-  opacity:0.33;
-  transform: translate(500px, -40px);
+  opacity:0.4;
+  transform: translate(700px, -1400px);
  `;
   export const Title= styled.section`
     display:flex;
-    font-size:3.5em;
+    font-size:3.8em;
 `;
 
 export const JoiS = styled.div`
@@ -278,14 +278,25 @@ export const JoiS = styled.div`
 `;
 
   export const FooterC= styled.div`
+  
     display:flex;
     padding: 3em;
-    bottom:4em;
+    height:2vh;
     widht: 100vh;
+    margin: 0.2rem 0;
     align-items: center;
     justify-content: space-around;
     font-weight: bolder;
-    background-color:black; 
+    background-color:black;
+   
+    /*  poner footer abajo */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+
+
 `;
 export const FooterLink = styled.a`
   color: white;

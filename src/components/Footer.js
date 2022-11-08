@@ -1,6 +1,6 @@
 import React from "react";
-import facebook from "../images/facebook.svg";
-import twitter from "../images/twitter.svg";
+import facebook from "../assets/facebook.svg";
+import twitter from "../assets/twitter.svg";
 import {FooterLink,FooterC} from "./StyledComponents";
 
 function Footer() {

@@ -1,6 +1,6 @@
 import React from "react";
-import JoinSection from "./JoinSection";
-import { JoiS, JC,CircleJ,Title, CircleM } from "./StyledComponents";
+import JoinSection from "../components/JoinSection";
+import { JoiS, JC,CircleJ,Title, CircleM } from "../components/StyledComponents";
 
 function Join() {
   return (

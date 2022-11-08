@@ -36,7 +36,7 @@ font-size:2.75em;
 margin-top:0.5em;
 `;
 
-export const NavItem = styled.li`
+export const NavItems = styled.li`
 display:flex;
 list-style-type: none;
 text-decoration: none;
@@ -47,13 +47,4 @@ font-size:1.5em;
   a:hover {
   opacity: 1;
   }
-
-`;
-export const NavLinks = styled.div`
-color: white; 
-text-decoration: none; 
-cursor: pointer; 
-&.active { 
-color: #000000; 
-} 
 `;
